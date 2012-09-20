@@ -11,12 +11,14 @@ gem 'sqlite3'
 # Gems used only for assets and not required
 # in production environments by default.
 group :development do
-	gem 'rspec-rails', '2.0.1'
+	gem 'rspec-rails', '2.11.0'
+	gem 'autotest'
 end
 
 group :test do
-	gem 'rspec', '2.0.1'
+	gem 'rspec', '2.11.0'
 	gem 'webrat', '0.7.1'
+	gem 'win32-process'
 end
 
 group :assets do
